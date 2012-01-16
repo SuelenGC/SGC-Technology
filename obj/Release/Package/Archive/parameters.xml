@@ -1,0 +1,6 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/SGCTechnology" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\SGCTechnology\\Site\\SGCTechnology\\SGCTechnology\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\SGCTechnology\\Site\\SGCTechnology\\SGCTechnology\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

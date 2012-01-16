@@ -1,0 +1,138 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:700);
+
+body  
+{
+    margin:0;
+    padding:0;
+    text-align: center; /* hack para o IE */      
+    background-color:#E5E5E5;
+    background-image:url('Imagens/bg2.jpg');
+    background-repeat:repeat-y;
+    background-position:top center;
+    color :#555;
+    font-family:Verdana;
+}
+ 
+#BoxGeral { width:980px; margin-left:auto; margin-right:auto; display:inline-block; }
+ 
+#BoxGeral #BoxCabecalho { width:100%; height:150px; float:left; background-image:url('Imagens/SGCTechnology-Logo.png'); background-repeat:no-repeat; background-position:left bottom; border-top:10px solid #F00000; background-color:Black; }
+ 
+#BoxGeral #BoxMeio { width:100%; float:left; background-color:Black; color:White; }
+ 
+#BoxMeio #BoxMenu { width:100%; float:left; margin-top:10px; text-align:left; height:25px; }
+ 
+#BoxMeio #BoxContent { width:100%; float:right; background-color:White; border-bottom:5px solid #F00000; }
+ 
+#BoxFooter { width:100%; float:right; height:150px; background-color:Black; text-align:center; vertical-align:middle; font-size: small; color:#555}
+
+#BoxContato { width:230px; height:100%; margin:30px 0 0 750px; top:58px; left:810px; font-size:large; color:White;}
+
+#BoxLocalizacao { text-align:left; color:Black; margin-left:25px; font-size:x-small; }
+
+/*menu*/
+
+/* ^^^^^^^^ BELOW IS THE CODE FOR THE MENU ^^^^^^^^^^ */
+#menucontainer 
+{
+    height:24px;
+    background:#000;
+    display:block;
+    padding:45px 0 0 15px;
+}
+#menu 
+{
+    position:relative;
+    display:block;
+    height:24px;
+    font-size:11px;
+    font-weight:bold;
+    /*font-family:Lucida Sans Unicode,Verdana,Helvitica,sans-serif;*/
+}
+#menu ul 
+{
+    margin:0px;
+    padding:0;
+    list-style-type:none;
+    width:auto;
+}
+#menu ul li 
+{
+    display:block;
+    float:left;
+    margin:0 1px 0 0;
+}
+#menu ul li a 
+{
+    display:block;
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    padding:5px 20px 0 20px;
+    height:19px;
+    background:transparent url('imagens/menu_bg-OFF.gif') repeat-x top left;
+    border: 1px solid #ccc; 
+	border-bottom: 0;
+}
+#menu ul li a:hover 
+{
+    color:#fff;
+    background:transparent url('imagens/menu_bg-OVER.gif') repeat-x top right;
+}
+#menu ul li a.current,#menu ul li a.current:hover 
+{
+    color:#000;
+    background:#fff;
+}
+/* ^^^^^^^^ ABOVE IS THE CODE FOR THE MENU ^^^^^^^^^^ */
+
+.divContent
+{
+    padding-top:20px;
+}
+        
+.tituloHome
+{
+    color:Black; font-size:20px; text-align:center; font-family:'Ubuntu Mono', Sans-Serif; margin:0px;
+}
+
+.tituloGeral
+{
+    color:Black; font-size:20px; font-family:'Ubuntu Mono', Sans-Serif; margin:0px; background-image:url('Imagens/BG-Titulo.jpg'); background-repeat:repeat-x;
+}
+
+.molduraHeader
+{
+    background-image:url('imagens/top_content.png'); background-repeat:no-repeat; background-position:center; height:20px; margin-top:20px;    
+}
+.molduraContent
+{
+    vertical-align:middle; 
+    font-size:small; 
+    text-align:justify; 
+    color:#555; 
+    line-height:18px; 
+    /*height:650px; */
+    letter-spacing:1px; 
+    background-image:url(Imagens/body_content.png); 
+    background-repeat:repeat-y;
+    background-position:center;
+    padding: 0px 45px 0px 40px;
+}
+.molduraFooter
+{
+    background-image:url('imagens/footer_content.png'); background-repeat:no-repeat; background-position:center; height:20px; margin-bottom:20px; 
+}
+#banner
+{
+    height:150px;
+    border:2px solid gray;
+    margin: 0px 0px 10px 0px;
+}
+a 
+{ 
+    text-decoration:none; color:#C00; 
+}
+a:hover 
+{ 
+    text-decoration:underline; 
+}

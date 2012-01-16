@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="SGCTechnology.MasterPage" %>
+
+<%@ Register src="Menu.ascx" tagname="Menu" tagprefix="uc1" %>
+<%@ Register src="Rodape.ascx" tagname="Rodape" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SGC Technology | Criação de sites | Desenvolvimento Mobile</title>
+    <meta name="description" content="Desenvolvimento Web e Mobile" />
+    <meta name="keywords" content="Criação de sites, Desenvolvimento Mobile" />
+    <link href="EstilosMaster.css" rel="Stylesheet" type="text/css" />
+    <script src="scripts/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="scripts/jquery.maskedinput-1.2.2.js" type="text/javascript"></script>
+    <script src="scripts/XMLManipulator.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery("#data").mask("99/99/9999");
+            jQuery(".Telefone").mask("9999-9999");
+            jQuery("#celular").mask("(99)9999-9999");
+            jQuery("#cpf").mask("999.999.999-99");
+            
+        });  
+    </script>   
+
+    <!-- Início Código GA -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-27022692-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- Fim Código GA -->
+
+    <!-- Coloque esta chamada de renderização conforme necessário -->
+    <script type="text/javascript">
+        window.___gcfg = { lang: 'pt-BR' };
+
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div id="BoxGeral">
+        
+        <div id="BoxCabecalho">
+             <div id="BoxContato"> 
+                
+                <!--<div style="float:left">
+                <img src="Imagens/telefone2.png" />
+                </div><div style="float:right">
+                <br />(11) 9336-7069
+                </div>-->
+             </div>                
+        </div>
+        
+        <div id="BoxMeio">
+
+            <div id="BoxMenu">
+                <uc1:Menu ID="Menu1" runat="server" />
+            </div>
+
+            <div id="BoxContent">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            
+                <!-- Coloque esta tag onde você deseja que o botão +1 seja renderizado -->
+                <p align="right"><g:plusone></g:plusone></p>
+
+            </div>
+        </div>
+
+        <div id="BoxFooter">
+            
+            <uc2:Rodape ID="Rodape1" runat="server" />
+            
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

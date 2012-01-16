@@ -1,0 +1,5 @@
+D:\SGCTechnology\Site\SGCTechnology\bin\SGCTechnology.dll
+D:\SGCTechnology\Site\SGCTechnology\bin\SGCTechnology.pdb
+D:\SGCTechnology\Site\SGCTechnology\obj\Debug\ResolveAssemblyReference.cache
+D:\SGCTechnology\Site\SGCTechnology\obj\Debug\SGCTechnology.dll
+D:\SGCTechnology\Site\SGCTechnology\obj\Debug\SGCTechnology.pdb

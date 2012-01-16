@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52EFC4A6-F643-45A4-A111-8D9D8C38216D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SGCTechnology</RootNamespace>
+    <AssemblyName>SGCTechnology</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DeployIisAppPath>Default Web Site/SGCTechnology</DeployIisAppPath>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <PublishDatabases>false</PublishDatabases>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\SGCTechnology.dll" />
+    <Content Include="bin\SGCTechnology.pdb" />
+    <Content Include="Contatos.aspx" />
+    <Content Include="Duvidas.aspx" />
+    <Content Include="EstilosMaster.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="Imagens\BG-Titulo.jpg" />
+    <Content Include="Imagens\bg.jpg" />
+    <Content Include="Imagens\bg2.jpg" />
+    <Content Include="Imagens\bg3.html" />
+    <Content Include="Imagens\bg3.png" />
+    <Content Include="Imagens\bg4.png" />
+    <Content Include="Imagens\body_content.png" />
+    <Content Include="Imagens\footer_content.png" />
+    <Content Include="Imagens\formas-de-pagamento.png" />
+    <Content Include="Imagens\iconecaneta.png" />
+    <Content Include="Imagens\iconecasa.png" />
+    <Content Include="Imagens\iconecelular.png" />
+    <Content Include="Imagens\iconedinheiro.png" />
+    <Content Include="Imagens\iconeemail.png" />
+    <Content Include="Imagens\imagens\bg3.png" />
+    <Content Include="Imagens\menu_bg-OFF.gif" />
+    <Content Include="Imagens\menu_bg-OVER.gif" />
+    <Content Include="Imagens\my_Logo.png" />
+    <Content Include="Imagens\my_Logo2.png" />
+    <Content Include="Imagens\SGCTechnology-Logo.png" />
+    <Content Include="Imagens\telefone.png" />
+    <Content Include="Imagens\telefone2.jpg" />
+    <Content Include="Imagens\telefone2.png" />
+    <Content Include="Imagens\top_content.png" />
+    <Content Include="Media\SGCTechnology-Banner.swf" />
+    <Content Include="Media\SGCTechnology-Banner2.swf" />
+    <Content Include="Rodape.ascx" />
+    <Content Include="scripts\jquery-1.7.min.js" />
+    <Content Include="scripts\jquery.maskedinput-1.2.2.js" />
+    <Content Include="scripts\XMLManipulator.js" />
+    <Content Include="Servicos.aspx" />
+    <Content Include="SobreNos.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Menu.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contatos.aspx.cs">
+      <DependentUpon>Contatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contatos.aspx.designer.cs">
+      <DependentUpon>Contatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Duvidas.aspx.cs">
+      <DependentUpon>Duvidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Duvidas.aspx.designer.cs">
+      <DependentUpon>Duvidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Rodape.ascx.cs">
+      <DependentUpon>Rodape.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rodape.ascx.designer.cs">
+      <DependentUpon>Rodape.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Servicos.aspx.cs">
+      <DependentUpon>Servicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Servicos.aspx.designer.cs">
+      <DependentUpon>Servicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SobreNos.aspx.cs">
+      <DependentUpon>SobreNos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SobreNos.aspx.designer.cs">
+      <DependentUpon>SobreNos.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XMLs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fonts\Continuum-Bold.ttf" />
+    <None Include="Fonts\Continuum-Regular.ttf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5262</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Duvidas>
+  <Duvida>
+    <PalavraChave>Sites Estáticos Site Estático</PalavraChave>
+    <IDPergunta>3</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Sites Dinâmicos Site Dinâmico</PalavraChave>
+    <IDPergunta>2</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Android</PalavraChave>
+    <IDPergunta>4</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Identidade Visual</PalavraChave>
+    <IDPergunta>9</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Hospedagem</PalavraChave>
+    <IDPergunta>10</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Domínio domínios</PalavraChave>
+    <IDPergunta>11</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>E-mail Profissional</PalavraChave>
+    <IDPergunta>13</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Logo</PalavraChave>
+    <IDPergunta>14</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>iOS</PalavraChave>
+    <IDPergunta>5</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Desenvolvimento Mobile</PalavraChave>
+    <IDPergunta>6</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Linguagem de Programação Linguagens de Programação</PalavraChave>
+    <IDPergunta>7</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Open Source</PalavraChave>
+    <IDPergunta>8</IDPergunta>
+  </Duvida>
+  <Duvida>
+    <PalavraChave>Hot Sites Hot Site</PalavraChave>
+    <IDPergunta>15</IDPergunta>
+  </Duvida>
+</Duvidas>

@@ -1,0 +1,8 @@
+﻿<systemInfo osVersion="6.1" winDir="C:\Windows" machineName="SUELENGC-LAPTOP" processorArchitecture="x86" msdeployVersion="1.0" buildVersion="7.1.618.0">
+  <iisSystemInfo iisMajorVersion="0" iisMinorVersion="0">
+    <aspNetVersionInfo>
+      <aspNetVersion version="2.0.50727.0" />
+      <aspNetVersion version="4.0.30319.0" />
+    </aspNetVersionInfo>
+  </iisSystemInfo>
+</systemInfo>
